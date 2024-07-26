@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light background for better readability */
+}
+
+.navbar {
+  height: 60px;
+  margin-bottom: 20px; /* Space below the navbar */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #000;
+}
+
+.btn-link {
+  color: #333;
+}
+
+.btn-link:hover {
+  color: #000;
+}
+
+.main-content {
+  margin-top: 80px; /* Adds space between the navbar and the main content */
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  color: #333;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px; /* Adds space between buttons */
+}
